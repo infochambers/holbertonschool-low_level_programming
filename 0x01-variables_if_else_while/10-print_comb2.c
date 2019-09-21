@@ -20,8 +20,10 @@ int main(void)
 			putchar(loop2);
 
 			if (!(loop1 == 57 && loop2 == 57))
-			putchar(',');
-			putchar(' ');
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 
 
