@@ -16,7 +16,7 @@ int main(void)
 		putchar(loop);
 	}
 
-	for (loop = 'a' ; loop <= 'e' ; loop++)
+	for (loop = 'a' ; loop <= 'f' ; loop++)
 	{
 		putchar(loop);
 	}
