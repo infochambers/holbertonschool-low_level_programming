@@ -13,9 +13,9 @@ int main(void)
 
 	for (loop = 'a' ; loop <= 'z' ; loop++)
 	{
-		if ( !(loop == 'e') )
+		if (!(loop == 'e'))
 		{
-			if ( !(loop == 'q') )
+			if (!(loop == 'q'))
 			{
 				putchar(loop);
 			}
