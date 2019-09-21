@@ -5,18 +5,18 @@
  *
  * Return: Always 0 (Success)
  */
- 
+
 int main(void)
 	{
 
 	int loopA, loopa;
 
-	for(loopa = 'a' ; loopa <= 'z' ; loopa++)
+	for (loopa = 'a' ; loopa <= 'z' ; loopa++)
 	{
 		putchar(loopa);
 	}
 
-	for(loopA = 'A' ; loopA <= 'Z' ; loopA++)
+	for (loopA = 'A' ; loopA <= 'Z' ; loopA++)
 	{
 		putchar(loopA);
 	}
