@@ -11,15 +11,15 @@ int main(void)
 
 	int loop1, loop2;
 
-	for (loop1 = '0' ; loop1 <= '9' ; loop1++)
+	for (loop1 = 48 ; loop1 <= 57 ; loop1++)
 	{
 
-		for (loop2 = '0' ; loop2 <= '9' ; loop2++)
+		for (loop2 = 48 ; loop2 <= 57 ; loop2++)
 		{
 			putchar(loop1);
 			putchar(loop2);
 
-			if (!(loop1 == '9' && loop2 == '9'))
+			if (!(loop1 == 57 && loop2 == 57))
 			putchar(',');
 			putchar(' ');
 		}
