@@ -11,17 +11,14 @@
  *
  */
 
-int _abs(rebnum)
+int _abs(int rebnum)
 {
-
-	int rebnum;
 
 	if (rebnum < 0)
 	{
 		rebnum = -rebnum;
 	}
 
-	_putchar(rebnum);
 
-	return (0);
+	return (rebnum);
 }
