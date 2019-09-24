@@ -15,7 +15,7 @@ void print_alphabet(void)
 	int loop;
 	char harray[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (loop = 0 ; loop <= 26 ; loop++)
+	for (loop = 0 ; loop <= 25 ; loop++)
 	{
 		_putchar(harray[loop]);
 	}
