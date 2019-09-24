@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 	for (loop10 = 0 ; loop10 <= 9 ; loop10++)
 	{
 
-		for (loop = 0 ; loop <= 26 ; loop++)
+		for (loop = 0 ; loop <= 25 ; loop++)
 		{
 			_putchar(harray[loop]);
 		}
