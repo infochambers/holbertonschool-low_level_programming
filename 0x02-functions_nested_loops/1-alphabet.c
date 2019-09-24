@@ -13,7 +13,7 @@ void print_alphabet(void)
 	{
 
 	int loop;
-	char harray[27] = "abcdefghijklmnopqrstuvwxyz";
+	char harray[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (loop = 0 ; loop <= 26 ; loop++)
 	{
