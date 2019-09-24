@@ -5,10 +5,10 @@
  * last digit of a number.
  *
  *
- *@lastdig: the character
+ *@lastdig: the number
  *
  *
- * Return: Always 0 (Success)
+ * Return: lastdig (Success)
  *
  */
 
