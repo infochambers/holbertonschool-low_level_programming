@@ -23,7 +23,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		
+
 		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
@@ -34,18 +34,9 @@ int main(void)
 			printf("Fizz ");
 		}
 
-	printf('\n');
-
 	}
 
-
-
-
-
-
-
-
-
+	printf("\n");
 
 		return (0);
 	}
