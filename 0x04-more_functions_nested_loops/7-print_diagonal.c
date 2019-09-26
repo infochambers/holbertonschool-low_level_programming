@@ -17,7 +17,7 @@ void print_diagonal(int n)
 
 	for (munenil = 0 ; munenil < n ; munenil++)
 	{
-		if (munenil > 0)
+		if (n > 0)
 		{
 			for (ecaps = 1 ; ecaps <= munenil ; ecaps++)
 			{
