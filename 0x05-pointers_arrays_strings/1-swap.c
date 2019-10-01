@@ -5,7 +5,7 @@
  *
  * @a: incoming number
  * @b: incoming number
- * @c: storing number
+ *
  *
  *
  * Return: Always 0 (Success)
@@ -15,9 +15,10 @@
 void swap_int(int *a, int *b)
 {
 
-	int *c;
+	int *c, what = 0;
 
-	c = 0;
+
+	c = &what;
 
 	*c = *a;
 	*a = *b;
