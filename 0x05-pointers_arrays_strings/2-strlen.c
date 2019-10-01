@@ -7,7 +7,7 @@
  *
  *
  *
- * Return: Always 0 (Success)
+ * Return: count (Success)
  *
  */
 
