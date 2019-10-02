@@ -5,8 +5,8 @@
  * print_array -- a function that prints n elements of an
  * array of integers, followed by a new line.
  *
- * @str: incoming string
- *
+ * @a: incoming string
+ * @n: incoming count
  *
  *
  * Return: Always 0 (Success)
@@ -20,12 +20,12 @@ void print_array(int *a, int n)
 
 	for (count = 1; count <= n ; count++)
 	{
-		printf("%d", a[count-1]);
+		printf("%d", a[count - 1]);
 
 	if (!(count == n))
-		{
-			printf(", ");
-		}
+	{
+		printf(", ");
+	}
 
 	}
 
