@@ -7,7 +7,7 @@
  * @b: incoming characters
  * @n: incoming characters
  *
- * Return: Always 0 (Success)
+ * Return: Always s (Success)
  *
  */
 
