@@ -3,9 +3,8 @@
 /**
  * _strchr --  a function that locates a character in a string.
  *
- * @dest: incoming characters
- * @src: incoming characters
- * @n: incoming characters
+ * @s: incoming characters
+ * @c: incoming characters
  *
  * Return: Always 0 (Success)
  *
@@ -20,12 +19,12 @@ char *_strchr(char *s, char c)
 	{
 		if (s[count] == c)
 		{
-			return(c);
+			return (c);
 		}
-			
+
 		else
 		{
-			return('\0');
+			return ('\0');
 		}
 	}
 
