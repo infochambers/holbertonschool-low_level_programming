@@ -18,7 +18,12 @@ int main(int argc, char **argv)
 	for (countloop = 1 ; countloop < argc ; countloop++)
 	{
 
-		printf("%s\n", argv[countloop]);
+		printf("%s", argv[countloop]);
+
+		if (countloop != argc-1)
+		{
+			printf("\n");
+		}
 
 	}
 
