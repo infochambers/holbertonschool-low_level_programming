@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
 	int countloop;
 
-	for (countloop = 1 ; countloop < argc ; countloop++)
+	for (countloop = 0 ; countloop < argc ; countloop++)
 	{
 
 		printf("%s", argv[countloop]);
