@@ -4,8 +4,9 @@
 /**
  * str_concat -- a function that concatenates two strings.
  *
- * @str: incoming characters
- * @gnitrs: new string
+ * @s1: incoming characters
+ * @s2: incoming characters
+ *
  *
  * Return: Always 0 (Success)
  *
@@ -29,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		gnitrs[count2] = s1[count2];
 	}
-	
+
 		for (count2 = 0 ; count2 <= count ; count2++)
 	{
 
