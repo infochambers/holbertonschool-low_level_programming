@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * _strdup -- a function that returns a pointer to a newly
@@ -24,9 +25,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	while (*str != '\0')
+	for (count = 0 ; str[count] != '\0' ; count++)
 	{
-		count++;
 	}
 
 	gnitrs = malloc(sizeof(char) * count);
