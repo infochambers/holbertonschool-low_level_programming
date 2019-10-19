@@ -3,7 +3,8 @@
 /**
  * array_range -- a function that creates an array of integers.
  *
- *
+ * @min: incoming parameter
+ * @max: incoming parameter
  *
  * Return: Always 0 (Success)
  *

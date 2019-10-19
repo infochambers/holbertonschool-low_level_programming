@@ -4,7 +4,8 @@
  * string_nconcat --  a function that allocates memory for an
  * array, using malloc.
  *
- *
+ * @nmemb: incoming parameter
+ * @size: incoming parameter
  *
  * Return: Always 0 (Success)
  *

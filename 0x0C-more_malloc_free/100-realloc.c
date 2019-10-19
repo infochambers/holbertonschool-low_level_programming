@@ -4,7 +4,9 @@
  * _realloc -- a function that reallocates a memory
  * block using malloc and free
  *
- *
+ * @ptr: incoming parameter
+ * @old_size: incoming parameter
+ * @new_size: incoming parameter
  *
  * Return: Always 0 (Success)
  *
